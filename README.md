@@ -1,2 +1,2 @@
 # La_Truffe_Noire
-SIte Web (Html/Css/Javascript)
+SIte Web du restaurant "La Truffe Noire" à Reims.
