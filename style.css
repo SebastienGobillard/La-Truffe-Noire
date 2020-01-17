@@ -1,0 +1,478 @@
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Yeseva One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; 300 400 600
+*/
+
+.retour {
+	clear:both;
+}
+
+body {
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	
+}
+
+img {
+	display: block;
+}
+
+.wrap {
+	width: 1200px;
+	margin:0 auto;
+}
+
+div.demi {
+		width: 50%;
+		float: left;
+}
+
+h2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:32px;
+	text-align:center;
+	text-transform:capitalize;
+		
+}
+
+header {
+	position: fixed;
+	z-index:50;
+	height: 100px;
+	width: 100%;
+	border-bottom: solid 1px #FFF;
+	background-color:rgba(0,0,0,0.2);
+}
+
+header img {
+	float: left;
+	width: 200px;
+	margin-right: 50px;
+}
+
+header nav {
+	float: right;
+}
+
+header li {
+	float: left;
+}
+
+	header li a {
+		display: block;
+		height: 100px;
+		line-height:100px;
+		padding: 0 15px;
+		color: #FFF;
+		
+		font-family: 'Yeseva One', cursive;
+		font-size: 16px;
+		text-decoration:none;
+		border-top: 3px solid rgba(255,255,255,0);
+	}
+	
+	header li:nth-last-child(1) a,header li:nth-last-child(2) a, header li:nth-last-child(3) a {
+		padding: 0 6px;
+	}
+	
+		header li a:hover {
+			border-top-color: rgba(255,255,255,1);
+		}
+			
+
+section {
+	
+	
+}
+
+#s_acc {
+	background-image:url(images/hero-bg.jpg);
+	background-size: cover;
+	height: 600px;
+	padding-top: 200px;
+}
+	#s_acc h1 {
+		font-family: 'Yeseva One', cursive;
+		text-align:center;
+		font-size: 95px;
+		line-height:125px;
+		color: #FFF;
+		
+		background:url(images/sepa.png) center bottom no-repeat;
+		
+		padding-bottom: 60px;
+	}
+	
+	#s_acc a {
+		display: block;
+		padding: 15px;
+		width: 200px;
+		float:left;
+		margin-top: 40px;
+		
+		font-family: 'Montserrat', sans-serif;
+		text-transform:uppercase;
+		color: #FFF;
+		text-decoration:none;
+		text-align:center;
+		
+		font-size:16px;
+		
+		background-color:rgba(0,0,0,0.36);
+		border: 1px solid #000;
+		
+		
+	}
+		#s_acc a:hover {
+			background-color:#000;
+		}
+	
+	#s_acc a:first-of-type {
+		margin-left: 355px;
+		margin-right: 20px;
+	}
+	
+#s_chef {
+	background:url(images/contemporary-china.png);
+	height: 600px;
+	padding-top: 120px;
+}
+	
+	
+	#s_chef h2 {
+		color: #c90;
+		
+		background:url(images/divider-gold.png) no-repeat center bottom;
+		
+		padding-bottom: 32px;
+		margin-bottom:20px;
+	}
+	
+	#s_chef p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		
+		color: rgba(80,80,80,1.00);
+		font-size:17px;
+		
+		width: 80%;
+		
+		line-height:27px;
+		text-align:center;
+		margin: 0 auto;
+	}
+	
+	#s_chef img.chef {
+		margin : 10px auto;
+	}
+	
+	#s_chef img.plat {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	
+#s_prod {
+	
+	height: 600px;
+	padding-top: 120px;
+	background-size: cover;
+	transition: 3s;
+	
+}
+
+	#s_prod .demi {
+		float: right;
+		clear: both;
+		background-color:rgba(0,0,0,0.8);
+		padding:20px;
+	}
+	
+	#s_prod h2 {
+		
+		color: #FFF;
+		
+		background:url(images/divider-white.png) no-repeat center bottom;
+		
+		padding-bottom: 32px;
+		margin-bottom:20px;
+	}
+	
+	#s_prod p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		
+		color: #FFF;
+		font-size:17px;
+		
+		width: 80%;
+		
+		line-height:27px;
+		text-align:center;
+		margin: 0 auto;
+	}
+	
+	#s_prod #produits {
+		margin-top:20px;
+		text-align:center;
+	}
+		#produits img {
+			border: 5px solid #494d4e;
+			border-radius: 100%;
+			display: inline-block;
+			height: 100px;
+			margin: 0 5px;
+			width: 100px;
+		}
+
+#s_menu {
+	
+	background:url(images/cream-pixels.png);
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+}
+
+	#s_menu .demi {
+		box-sizing: border-box;
+		padding: 0 50px 20px 50px;
+	}
+
+	#s_menu h2 {
+		color: #c90;
+		
+		background:url(images/divider-gold.png) no-repeat center bottom;
+		margin-top: 30px;
+		padding-bottom: 32px;
+		margin-bottom:20px;
+	}
+	
+	#s_menu h3 {
+		
+		color: #c90;
+		font-family: 'Yeseva One', cursive;
+		font-size:18px;
+		border-bottom: 1px solid #C90;
+		padding: 0 10px;
+		
+	}
+	
+	#s_menu h3 span {
+		float: right;
+		display:block;
+	}
+	
+	#s_menu p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		
+		color: rgba(80,80,80,1);
+		font-size:17px;
+		
+		padding: 0 20px;
+		
+		margin: 5px 0 30px 0;
+		
+	}
+
+#s_loc {
+	background:url(images/reviews-bg.jpg) center;
+	background-size:cover;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+	#s_loc .demi {
+		
+		clear: both;
+		
+		background-color:rgba(0,0,0,0.8);
+		
+		padding:20px;
+		width: 50%;
+		float: none;
+		margin: 0 auto;
+	}
+	
+	#s_loc .facade {
+		margin:10px auto;
+		display:block;
+		width: 400px;
+		border: 4px solid #C90;
+	}
+		
+	#s_loc h2 {
+		color: #FFF;
+		
+		background:url(images/divider-white.png) no-repeat center bottom;
+		padding-bottom: 32px;
+		margin-bottom:20px;
+	}
+	
+	#s_loc button {
+		display: block;
+		width: 200px;
+		height: 40px;
+		background-color:#C90;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:600;
+		color: #FFF;
+		font-size: 20px;
+		border: none;
+		margin: 10px auto;
+		text-transform:uppercase;
+		cursor:pointer;
+	}
+	
+	#s_loc p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		
+		color: rgba(80,80,80,1);
+		font-size:17px;
+		
+		padding: 0 20px;
+		
+		margin: 5px auto 30px auto;
+		color: #FFF;
+		
+		line-height:27px;
+		text-align:center;
+		
+		width: 500px;
+		
+	}
+	
+	#s_loc #google_map {
+		margin: 0 auto;
+		border: 2px #C90 solid;
+		width: 1200px;
+		opacity:0.9;
+		overflow:hidden;
+	}
+	
+	iframe {
+		display:block;
+	}
+	
+#s_resa {
+	background:url(images/pw-maze-white.png);
+	padding-top: 120px;
+	padding-bottom: 120px;
+	
+}
+	
+	#s_resa h2 {
+		color: #c90;
+		
+		background:url(images/divider-gold.png) no-repeat center bottom;
+		margin-top: 30px;
+		padding-bottom: 32px;
+		margin-bottom:20px;
+	}
+	
+	#s_resa p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		
+		color: rgba(80,80,80,1);
+		font-size:17px;
+		
+		
+		
+		margin: 5px 0 30px 0;
+		
+	}
+	
+	#s_resa fieldset {
+		display: block;
+		float: left;
+		width: 46%;
+	}
+	
+	#s_resa fieldset:nth-of-type(2) {
+		float: right;
+	}
+	
+	#s_resa input[type=submit] {
+		display: block;
+		width: 200px;
+		height: 40px;
+		background-color:#C90;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:600;
+		color: #FFF;
+		font-size: 20px;
+		border: none;
+		margin: auto;
+		text-transform:uppercase;
+		cursor:pointer;
+	}
+	
+	#s_resa input[type=submit]:hover {
+		background-color:#B47800;
+	}
+		
+	
+	#s_resa  label {
+		display:block;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:600;
+		color: rgba(80,80,80,1);
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	
+	#s_resa input[type=radio] {
+		display: inline;
+		width: auto;
+	}
+	
+	#s_resa input {
+		display:block;
+		width: 100%;
+		margin-bottom: 10px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:600;
+		color: rgba(80,80,80,1);
+		font-size: 16px;
+	}
+	
+	
+footer {
+	background-color: rgba(32,32,32,1.00);
+}
+
+footer div.tiers {
+	float: left;
+	box-sizing:border-box;
+	width: 33%;
+	padding: 2%;
+}
+	footer h4 {
+		color: #FFF;
+		font-family: 'Amatic SC', cursive;
+		background:url(images/divider-white.png) no-repeat center bottom;
+		background-size:180px ;
+		margin-top: 10px;
+		padding-bottom: 32px;
+		margin-bottom:20px;
+		text-align:center;
+		font-size: 36px;
+	}
+	
+	footer p {
+		color: #FFF;
+		text-align:center;
+		line-height:27px;
+	}
+	
+	footer span {
+		font-family: 'Amatic SC', cursive;
+		color: #C90;
+		font-size:22px;
+		cursor:help;
+	}
